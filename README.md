@@ -1,23 +1,32 @@
 # weather-app
 
+## Description
+
+A simple weather app that fetch data from the openweather api and render relevant information.
+
+Feature different background images depend on the current weather.
+
+This project was created to learn how to create application in Vue.
+
+
 ## Project setup
 ```
-npm install
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+yarn run serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+yarn run build
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+yarn run lint
 ```
 
 ### Customize configuration
