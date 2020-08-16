@@ -71,6 +71,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -102,6 +104,7 @@ main {
     rgba(0, 0, 0, 0.75)
   );
 
+  font-family: 'Kanit', sans-serif;
   text-align: center;
 }
 
