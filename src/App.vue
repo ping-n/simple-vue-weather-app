@@ -51,7 +51,6 @@ export default {
         .then(this.setData);
     },
     setData(res) {
-      console.log(res);
       this.weather = res;
     },
     setDate() {
