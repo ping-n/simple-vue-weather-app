@@ -70,7 +70,7 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -103,7 +103,7 @@ main {
     rgba(0, 0, 0, 0.75)
   );
 
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
   text-align: center;
 }
 
@@ -123,7 +123,7 @@ main {
 }
 
 .search-box {
-  width: 600px;
+  width: 450px;
   margin: 30px 0;
 }
 
@@ -195,5 +195,35 @@ main {
   font-weight: 200;
   font-style: italic;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 3rem;
+  }
+
+  .search-box {
+    width: 300px;
+    margin: 30px 0;
+  }
+
+  .location-box .location {
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    font-size: 2.5rem;
+  }
+
+  .location-box .location {
+    font-size: 2rem;
+  }
+
+  .location-box .date {
+    font-size: 1.2rem;
+  }
 }
 </style>
